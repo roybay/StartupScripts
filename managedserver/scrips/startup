@@ -1,0 +1,16 @@
+#!/bin/bash
+# chkconfig: 345 99 4
+# description: auto start/stop
+#
+SCRIPTS_HOME='/<path>/scripts'
+
+case "$1" in
+ 'start')
+   $SCRIPTS_HOME/startNodeManager.sh
+   $SCRIPTS_HOME/manageservers.sh startall;;
+ 'stop')
+   $SCRIPTS_HOME/manageservers.sh stopall;;	 
+ 'status')
+   $SCRIPTS_HOME/manageservers.sh statusall;;
+esac
+
