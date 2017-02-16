@@ -26,10 +26,10 @@ SCRIPTS_HOME=/home/oracle/scripts
 
 export TMP=/tmp
 export TMPDIR=$TMP
-export PATH=/usr/sbin:/hcmapps/bin:$PATH
-export ORACLE_HOSTNAME=i<hostname e.x:rbdb.hcmlabs.net>
-export ORACLE_HOME=/hcmappps/Oracle/product/11.2.0/dbhome_1
-export ORACLE_BASE=/hcmappps/oracle/
+export PATH=/usr/sbin:/<dir e.x:roybay>/bin:$PATH
+export ORACLE_HOSTNAME=i<hostname e.x:rbdb.example.net>
+export ORACLE_HOME=/<dir e.x:roybay>/Oracle/product/11.2.0/dbhome_1
+export ORACLE_BASE=/<dir e.x:roybay>/oracle/
 export ORACLE_UNQNAME=orcl
 export ORACLE_SID=orcl
 
