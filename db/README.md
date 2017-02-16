@@ -5,7 +5,7 @@ Setting Up
 0. Modify oratab
    
         vi /etc/oratab
-        Ex: orcl:/hcmlabs/Oracle/product/11.2.0/dbhome_1:Y
+        Ex: orcl:/<dir e.x:roybay>/Oracle/product/11.2.0/dbhome_1:Y
    
 0. Give a right permission to the scripts
    
